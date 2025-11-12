@@ -1,0 +1,36 @@
+﻿- name: "AniMo APAC Solutions Challenge"
+  role: "Project Manager, Backend & AI Developer"
+  year: 2025
+  category: "AI / Product"
+  summary: "Prototype for media/animation assistance using AI to generate assets and orchestration flows."
+  technologies:
+    - LangChain
+    - n8n
+    - Python
+    - Docker
+  status: "Prototype"
+  maturity: 40
+  impact: "APAC Challenge Entry"
+  highlights:
+    - "Led backend and AI integration for the APAC challenge entry."
+    - "Built prototype workflows for asset generation and orchestration."
+  links:
+    github: "#"
+    demo: "#"
+
+- name: "RegIt"
+  role: "Backend & Database Developer"  
+  year: 2024
+  category: "Tools / Backend"
+  summary: "Registration & tracking backend for campus events and workshops."
+  technologies:
+    - Python
+    - Firebase
+    - SQL
+  status: "Active"
+  maturity: 60
+  impact: "Campus Events"
+  highlights:
+    - "Designed database schema and backend APIs for registration flows."
+  links:
+    github: "#"

@@ -1,0 +1,78 @@
+name: "Jared Sheohn L. Acebes"
+tagline: "AI Trainee Developer · Full-Stack · Community Leader"
+sidebar_summary: "AI-focused backend & workflow automation developer building prototypes and community projects."
+location: "Cebu City, Philippines"
+email: "jared.acebes@gmail.com"
+phone: "+63 995 915 8414"
+availability: "Open for internships & part-time AI projects"
+quick_stats:
+  - label: "Projects"
+    value: "5+"
+    hint: "selected"
+    icon: "🛠"
+  - label: "Leadership"
+    value: "GDG President"
+    hint: "2024–Present"
+    icon: "👥"
+summary_points:
+  - "Backend systems & AI-driven workflows using LangChain and n8n"
+  - "Docker, GCP (Vertex AI), Firebase, and cloud integrations"
+focus_areas:
+  - "AI"
+  - "Backend"
+  - "Automation"
+hero_quote: "I build data-driven tools and prototypes that make teams shipping AI workflows faster."
+experience:
+  - company: "Ace-1 IT Solutions"
+    title: "AI Trainee Developer"
+    start: "Mar 2025"
+    end: "Present"
+    summary: "Built backend prototypes and integrated LangChain-based workflows for clients."
+    stack: ["LangChain", "n8n", "Docker"]
+    highlights:
+      - "Deployed cloud n8n workflows and integrated AI services."
+leadership:
+  categories:
+    - name: "Community"
+      items:
+        - role: "President & Campus Organizer"
+          organization: "GDG on Campus CIT-U"
+          duration: "2025–Present"
+          highlights:
+            - "Led chapter operations and events."
+skills:
+  radar:
+    - label: "Python"
+      score: 85
+    - label: "AI Integration"
+      score: 80
+    - label: "Backend"
+      score: 75
+  categories:
+    - name: "Languages"
+      items: ["Python", "TypeScript", "C++"]
+    - name: "Tools"
+      items: ["Docker", "Firebase", "GCP"]
+toolkit: ["Pandas", "NumPy", "Plotly"]
+soft_skills:
+  - "Team leadership"
+  - "Communication"
+education:
+  - institution: "Cebu Institute of Technology - University"
+    duration: "2023–2027"
+    program: "BS Computer Science"
+certifications: []
+social_links:
+  - label: "GitHub"
+    url: "https://github.com"
+    icon: "💻"
+  - label: "LinkedIn"
+    url: "https://linkedin.com"
+    icon: "💼"
+  - label: "Email"
+    url: "mailto:jared.acebes@gmail.com"
+    icon: "📧"
+resume:
+  file: "resume.pdf"
+  note: "Updated November 2025"
+call_to_action: "Want to collaborate? I'm happy to chat — use the Contact tab."

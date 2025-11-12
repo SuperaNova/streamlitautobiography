@@ -1,0 +1,14 @@
+- name: "Team Member"
+  role: "GDG CIT-U Volunteer"
+  content: "Jared's leadership in organizing technical workshops has been exceptional. His ability to coordinate events and mentor team members creates a collaborative learning environment."
+  year: 2024
+
+- name: "Project Collaborator"
+  role: "APAC Solutions Challenge Participant"
+  content: "Working with Jared on the AniMo project was great. His backend and AI integration skills, combined with his project management approach, kept our team focused and productive."
+  year: 2025
+
+- name: "Community Member"
+  role: "Relief Operations Volunteer"
+  content: "Jared's work as MIT Lead during the earthquake relief efforts was remarkable. His data analysis and coordination helped us reach over 30,000 families efficiently and safely."
+  year: 2025

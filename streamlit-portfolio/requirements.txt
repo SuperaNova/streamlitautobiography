@@ -1,0 +1,6 @@
+streamlit>=1.38
+pyyaml>=6.0
+pandas>=2.2
+plotly>=5.23
+streamlit-lottie>=0.0.5
+pillow>=10.1

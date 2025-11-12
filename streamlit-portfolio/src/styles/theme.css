@@ -1,0 +1,334 @@
+/* Modern glassmorphism theme for the portfolio app */
+
+:root {
+    --primary-color: #2563EB;
+    --primary-light: #3B82F6;
+    --secondary-color: #10B981;
+    --accent-color: #F59E0B;
+    --text-color: #111827;
+    --text-muted: #6B7280;
+    --text-light: #9CA3AF;
+    --background: #F8FAFC;
+    --surface: rgba(255, 255, 255, 0.85);
+    --surface-dark: rgba(30, 41, 59, 0.9);
+    --border: rgba(203, 213, 225, 0.6);
+    --shadow: rgba(0, 0, 0, 0.08);
+    --shadow-strong: rgba(0, 0, 0, 0.15);
+}
+
+/* Global app styling */
+.stApp {
+    background: linear-gradient(135deg, #0F172A 0%, #1E293B 25%, #334155 50%, #475569 75%, #64748B 100%);
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Glass panels */
+.stContainer > div {
+    background: var(--surface);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 10px 40px var(--shadow), 0 1px 3px var(--shadow-strong);
+    transition: all 0.3s ease;
+}
+
+.stContainer > div:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 50px var(--shadow-strong), 0 5px 15px var(--shadow);
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background: var(--surface-dark);
+    backdrop-filter: blur(20px);
+    border-right: 1px solid var(--border);
+    box-shadow: 2px 0 20px var(--shadow);
+}
+
+.sidebar-hero {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    border-radius: 16px;
+    margin: 1rem;
+    color: white;
+}
+
+.sidebar-hero h2 {
+    color: white;
+    font-weight: 700;
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+}
+
+.sidebar-hero p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.sidebar-divider {
+    border: none;
+    height: 1px;
+    background: var(--border);
+    margin: 1.5rem 0;
+}
+
+/* Stack/focus chips */
+.stack-chip-row, .focus-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+}
+
+.stack-chip, .focus-chip {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    transition: all 0.2s ease;
+}
+
+.stack-chip:hover, .focus-chip:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+}
+
+.focus-chip {
+    background: linear-gradient(135deg, var(--secondary-color), #059669);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.focus-chip:hover {
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+}
+
+/* Fact chips in sidebar */
+.fact-chip {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 0.75rem 0;
+    display: block;
+    backdrop-filter: blur(10px);
+    transition: all 0.2s ease;
+}
+
+.fact-chip:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.1));
+    transform: translateX(5px);
+}
+
+.fact-chip strong {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.fact-chip span {
+    color: rgba(255, 255, 255, 0.9);
+    margin-left: 0.5rem;
+    font-weight: 500;
+}
+
+.fact-chip small {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+/* Highlight items in sidebar */
+.highlight-item {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(59, 130, 246, 0.05));
+    border-left: 4px solid var(--primary-light);
+    padding: 0.75rem 1rem;
+    margin: 0.75rem 0;
+    border-radius: 0 12px 12px 0;
+    backdrop-filter: blur(10px);
+    transition: all 0.2s ease;
+}
+
+.highlight-item:hover {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.15), rgba(59, 130, 246, 0.1));
+    border-left-width: 6px;
+}
+
+.highlight-item strong {
+    color: white;
+    font-weight: 700;
+}
+
+/* Resume note */
+.resume-note {
+    background: #FEF3C7;
+    color: #92400E;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    margin: 0.5rem 0;
+}
+
+/* Links styling */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+a:hover {
+    color: var(--primary-light);
+    text-decoration: none;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    transition: width 0.3s ease;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+/* Main content headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+h1 {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Progress bars */
+.stProgress > div > div > div {
+    background: linear-gradient(135deg, var(--secondary-color), #059669);
+    border-radius: 10px;
+}
+
+/* Metrics styling */
+.metric-container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: all 0.2s ease;
+}
+
+.metric-container:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px var(--shadow);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, var(--primary-light), var(--secondary-color));
+}
+
+/* Metrics styling */
+.metric-container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Form styling */
+.stTextInput > div > div > input,
+.stTextArea > div > div > textarea {
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.stTextInput > div > div > input:focus,
+.stTextArea > div > div > textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.stButton > button {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+}
+
+.stButton > button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
+    background: linear-gradient(135deg, var(--primary-light), var(--primary-color));
+}
+
+/* Success/Info/Warning styling */
+.stSuccess {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(5, 150, 105, 0.05));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+.stInfo {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(59, 130, 246, 0.05));
+    border: 1px solid rgba(37, 99, 235, 0.3);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+.stWarning {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(217, 119, 6, 0.05));
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
