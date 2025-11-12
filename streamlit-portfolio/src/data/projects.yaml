@@ -1,18 +1,26 @@
 ﻿- name: "AniMo APAC Solutions Challenge"
-  role: "Project Manager, Backend & AI Developer"
+  role: "Full-Stack Developer"
   year: 2025
-  category: "AI / Product"
-  summary: "Prototype for media/animation assistance using AI to generate assets and orchestration flows."
+  category: "AI / Mobile"
+  summary: "Firebase-powered Flutter application for disaster response coordination using Vertex AI and Google Maps integration."
   technologies:
-    - LangChain
-    - n8n
-    - Python
-    - Docker
-  status: "Prototype"
-  maturity: 40
-  impact: "APAC Challenge Entry"
+    - Flutter
+    - Dart
+    - Go
+    - Firebase
+    - Vertex AI
+    - Google Maps API
+    - GCP
+    - Firebase Suite
+  status: "Completed"
+  maturity: 90
+  impact: "APAC Finalist"
   highlights:
-    - "Led backend and AI integration for the APAC challenge entry."
+    - "Built real-time disaster response coordination system with Flutter/Dart frontend."
+    - "Integrated Vertex AI for intelligent resource allocation and predictive analytics."
+    - "Implemented Google Maps API for location-based emergency services mapping."
+    - "Used Firebase suite for real-time data synchronization and user management."
+    - "Developed Go backend services for efficient data processing and API endpoints."
     - "Built prototype workflows for asset generation and orchestration."
   links:
     github: "#"

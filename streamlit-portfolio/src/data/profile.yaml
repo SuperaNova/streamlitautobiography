@@ -11,7 +11,7 @@ quick_stats:
     hint: "selected"
     icon: "🛠"
   - label: "Leadership"
-    value: "GDG President"
+    value: "GDGoC President"
     hint: "2024–Present"
     icon: "👥"
 summary_points:
